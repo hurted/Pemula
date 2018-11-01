@@ -1,0 +1,2 @@
+# Pemula
+No Bullu
