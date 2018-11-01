@@ -1,0 +1,209 @@
+#!/bin/bash
+
+# Mau Ngapain Njeng ...
+
+# Mau Copas? gpp lah bujnk
+
+# Jangan DiBully Yah
+
+# Ok Yh Master...
+
+# Bersihkan Layar
+clear
+blue='\e[0;34'
+cyan='\e[0;36m'
+green='\e[0;34m'
+okegreen='\033[92m'
+lightgreen='\e[1;32m'
+white='\e[1;37m'
+red='\e[1;31m'
+yellow='\e[1;33m'
+
+###################################################
+# CTRL C
+###################################################
+trap ctrl_c INT
+ctrl_c() {
+clear
+echo -e $red"[#]> (Ctrl + C ) Detected, Trying To Exit ... "
+sleep 1
+echo ""
+echo -e $lightgreen"[#]> Thx u yh udh make tools bgoo ini ... "
+sleep 1
+echo ""
+echo -e $white"[#]> Mr.HurT3d BOT  ... "
+read enter
+exit
+}
+echo -e $white"    =================================================="
+
+echo -e $green"      # Name     : Mr.HurT3d     #"
+echo -e $red"      # Team     : Indonesian Sad Cyber      #"
+echo -e $white"      # Kntloo  : Bacot Lo Bujank         #"
+echo -e $white"      # Youtube  : Vroo Xz    #"
+
+echo -e $red"      # Thanks To : -Ghost Hunter Illusion   #"
+echo -e $white"                  -Indonesian sad cyber   #"
+echo -e $red"                        version 1.0"
+
+echo -e $white"     =================================================="
+echo -e $yellow" [<]==============================[>]"
+
+echo -e $red"  Sook Di Pilih Tools Nya ..."
+
+echo -e $yellow" [<]==============================[>]"
+echo -e ""
+echo -e $white"[+]=================================[+]"
+echo -e $red" 01) admin finder "
+echo -e $white"[+]=================================[+]"
+echo -e $red" 02) lokomedia exploiter "
+echo -e $white"[+]=================================[+]"
+echo -e $red" 03) Webdav"
+echo -e $white"[+]=================================[+]"
+echo -e $red" 04) bot auto deface 1"
+echo -e $white"[+]=================================[+]"
+echo -e $red" 05) bot auto deface 2"
+echo -e $white"[+]=================================[+]"
+echo -e $red" 06) com_fabrik exploiter"
+echo -e $white"[+]=================================[+]"
+echo -e $red" 07) Websploit"
+echo -e $white"[+]=================================[+]"
+echo -e $red" 08) Google Dork"
+echo -e $red"[+]=================================[+]"
+echo -e ""
+echo -e $yellow"[+]=================================[+]"
+echo -e $red"  00) Keluar sterr... "
+echo -e $yellow"[+]=================================[+]"
+echo -e $blue""
+read -p "[Mr.HurT3d@GVlok]> " act;
+
+if [ $act = 01 ] || [ $act = 01 ]
+then
+clear
+echo -e $lightgreen" Installing admin finder "
+sleep 1
+apt update && apt upgrade
+apt-get install php
+mkdir adfin
+cd ~/webdav
+wget https://pastebin.com/raw/32txZ6Qr -O adfin.php
+cd ~/
+echo -e $yellow" Selesai Install Tood ... "
+fi
+
+if [ $act = 02 ] || [ $act = 02 ]
+then
+clear
+echo -e $lightgreen" installing lokomedia exploiter "
+sleep 1
+apt update && apt upgrade
+apt-get install php
+mkdir lokomed
+cd ~/lokomed
+wget https://pastebin.com/raw/sPpJRjCZ -O lokomedia.php
+cd ~/
+echo -e $yellow" Selesai Install Coy ... "
+echo -e $yellow" usage : php lokomedia.php a.txt "
+fi
+
+if [ $act = 03 ] || [ $act = 03 ]
+then
+clear
+echo -e $lightgreen" Installing Webdav "
+sleep 1
+apt update && apt upgrade
+apt install python
+apt-get install python-pip
+pip2 install urllib3 chardet certifi idna requests
+apt install openssl curl
+pkg install libcurl
+mkdir webdav
+cd ~/webdav
+wget https://pastebin.com/raw/HnVyQPtR -O webdav.py
+chmod 777 webdav.py
+cd ~/
+echo -e $yellow" Selesai Install Yahhh ... "
+fi
+
+if [ $act = 04 ] || [ $act = 04 ]
+then
+clear
+echo -e $lightgreen" installing bot auto deface 1 "
+sleep 1
+apt-get update && apt-get upgrade
+apt-get install git 
+apt-get install wget 
+apt-get install perl 
+apt-get install unzip
+git clone https://github.com/mrcakil/bot.git
+cd bot
+unzip bot.zip
+chmod 777 bot.pl
+echo -e $red" Lokasi bot ? /bot/bot.pl"
+echo -e $yellow" Selesai Install pak ... "
+fi
+
+if [ $act = 05 ] || [ $act = 05 ]
+then
+clear
+echo -e $lightgreen" installing bot auto deface 2 "
+sleep 1
+apt-get update && apt-get upgrade
+apt-get install git && apt-get install perl
+git clone https://github.com/Moham3dRiahi/XAttacker
+cd XAttacker
+chmod 777 XAttacker.pl
+echo -e $yellow" Selesai ... "
+fi
+
+if [ $act = 06 ] || [ $act = 06 ]
+then
+clear
+echo -e $lightgreen" installing com fabrik exploiter "
+sleep 1
+apt-get update && apt-get upgrade
+apt-get install wget
+apt-get install php
+wget https://pastebin.com/raw/LDvFvtUD -O com_fabrik.php
+sleep 1
+echo -e $yellow" Usage: php com_fabrik.php target.txt "
+fi
+
+if [ $act = 07 ] || [ $act = 07 ]
+then
+clear
+echo -e $lightgreen" installing Websploit "
+sleep 1
+apt-get update
+apt-get upgrade
+apt-get install python
+apt-get install python2
+apt-get install git
+git clone https://github.com/shadowbot82/Websploit.git
+sleep 1
+echo -e $yellow" Selesai Install Coy ... "
+fi
+
+if [ $act = 08 ] || [ $act = 08 ]
+then
+echo -e $yellow" Tunggu Bentar Coy... "
+sleep 1
+echo -e $lightgreen" installing Google Dork"
+sleep 1
+apt update 
+apt upgrade
+apt install python2
+apt install git
+git clone https://github.com/XG77Z10/Google-Dork
+sleep 1
+echo -e $yellow" Selamat Udah Berhasil Ke Instal... "
+fi
+
+if [ $act = 00 ] || [ $act = 00 ]
+then
+echo -e $red" Dah Yah Bujank.. "
+sleep 1
+echo -e $lightgreen" Thank You (^_^) "
+sleep 1
+exit
+fi
